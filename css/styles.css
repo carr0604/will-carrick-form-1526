@@ -1,0 +1,87 @@
+@media only screen and (min-width: 0){
+    
+    .wrapper {
+        margin: 0 auto;
+        width: 95%;
+        padding-top: 30px;
+    }
+    
+    fieldset {
+        font-family: 'Arial', 'Helvetica', 'Helvetica Neue', sans-serif;
+        background-color: #F5F5F5;
+        border: 2px solid #DDD;
+        border-radius: 5px;
+        padding-top: 20px
+        
+    }
+    
+    input {
+        height: 35px;
+    }
+    
+    textarea {
+        height: 70px;
+    }
+    
+    input, textarea {
+        margin-top: 7px;
+        width: 98%;
+        border: 2px solid #DDD;
+        border-radius: 3px;
+    }
+    
+    legend {
+        font-size: 2rem;
+        border-style: solid;
+        border: 2px solid #DDD;
+        background-color: white;
+        padding: 15px;
+    }
+    
+    .box, .message, .submit {
+        font-size: 1rem;
+        padding: 2%;
+        margin: 0 auto;
+    }
+    
+    #submit {
+        background-color: #6495ED;
+        border: none;
+        color: white;
+        font-size: 1rem;
+    }
+}
+
+
+@media only screen and (min-width: 25rem){
+    
+    .wrapper {
+        width: 85%;
+    }
+    
+    .box {
+        width: 46%;
+        float: left;
+    }
+    
+    .clear {
+        float: clear;
+    }
+    
+    #submit {
+        width: 120px;
+    }
+    
+}
+
+
+@media only screen and (min-width: 40rem){
+    .wrapper {
+        max-width: 50rem;
+    }
+    
+    .box {
+        width: 46%;
+    }
+    
+}
